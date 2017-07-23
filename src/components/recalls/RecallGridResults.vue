@@ -25,11 +25,11 @@
 </template>
 
 <script>
-import recallList from './RecallList'
+// imports here
 export default {
-  name: 'searchGridResults',
+  name: 'recallGridResults',
   components: {
-    recallList
+
   },
   data: function () {
     return {

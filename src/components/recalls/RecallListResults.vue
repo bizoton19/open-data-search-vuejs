@@ -1,41 +1,42 @@
 <template lang="html">
   <div>
-
-  <md-card>
-  <md-list v-for="rec in recall" :key="rec.RecallNumber" >
-
+   <md-ink-ripple />
+  <md-card  >
+     
+  <md-list v-for="rec in recall" :key="rec.recallNumber" >
+     
       <md-list-item>
         <md-avatar>
-          <md-icon class="md-size-2x md-warn">cached</md-icon>
+          <md-icon class="md-size-2x green">cached</md-icon>
         </md-avatar>
         <div  class="md-list-text-container">
-          <h2><a v-bind:href="rec.URL" target="_blank">{{rec.Title}}</a></h2>
-          <span>Recall Date: {{rec.RecallDate}}</span>
-          <p>{{rec.Description}}</p>
+          <h2><a v-bind:href="rec.uRL" target="_blank">{{rec.title}}</a></h2>
+          <span>Recall Date: {{rec.recallDate}}</span>
+          <p>{{rec.description}}</p>
           <!--Products-->
           <md-list-item md-expand-multiple>
           <span>Products</span>
           <md-list-expand>
-           <md-list v-for="recp in rec.Products">
+           <md-list v-for="recp in rec.products">
                  <md-list-item class="md-dense md-inset ">
-                 <span >{{recp.Type}}</span>
+                 <span >{{recp.type}}</span>
                </md-list-item>
            </md-list>
          </md-list-expand>
        </md-list-item>
        <!--Hazards-->
        <md-list-item md-expand-multiple>
-       <span>Hazards</span>
-       <md-list-expand>
-        <md-list v-for="rech in rec.Hazards">
+         <span>Injuries</span>
+         <md-list-expand>
+          <md-list v-for="reci in rec.injuries">
               <md-list-item class="md-inset" >
-              <span >{{rech.Name}}</span>
+              <span >{{reci.name}}</span>
             </md-list-item>
         </md-list>
       </md-list-expand>
     </md-list-item >
          </div>
-          <a class="md-icon-button md-list-action" v-bind:href="rec.URL" target="_blank">
+          <a class="md-icon-button md-list-action" v-bind:href="rec.uRL" target="_blank">
             <md-icon class="md-primary">arrow_forward</md-icon>
           </a>
       </md-list-item>
@@ -47,11 +48,11 @@
 </template>
 
 <script>
-import recallList from './RecallList'
+
 export default {
-  name: 'searchListResults',
+  name: 'recallListResults',
   components: {
-    recallList
+
   },
   props:{
     recall:{
@@ -60,7 +61,7 @@ export default {
     }
   },
   computed:{
-
+       
   },
   data: function() {
     return {
@@ -68,7 +69,7 @@ export default {
     }
   },
   methods: {
-
+       
   },
 }
 </script>

@@ -1,0 +1,72 @@
+{
+    "type": null,
+    "incidentReportId": 0,
+    "incidentReportNumber": null,
+    "incidentReportDate": "0001-01-01T00:00:00",
+    "incidentReportPublicationDate": "0001-01-01T00:00:00",
+    "manufacturerNotificationDate": "0001-01-01T00:00:00",
+    "incidentDate": "0001-01-01T00:00:00",
+    "incidentDescription": null,
+    "companyCommentsExpended": null,
+    "incidentProductDescription": null,
+    "productManufacturerComapanyId": 0,
+    "productManufacturerName": null,
+    "productManufacturedDate": "0001-01-01T00:00:00",
+    "productRetailCompanyId": 0,
+    "productRetailCompanyName": null,
+    "productPuchasedDate": "0001-01-01T00:00:00",
+    "productBrandName": null,
+    "productModelName": null,
+    "productSerialNumber": null,
+    "productUPCCode": null,
+    "userStillHasProduct": false,
+    "productDamagedBeforeIncident": false,
+    "productModifiedBeforeIncident": false,
+    "userContactedManufacturer": false,
+    "answerExplanation": null,
+    "userPlansToContactManufacturer": false,
+    "victimAgeInMonths": 0,
+    "relationship": null,
+    "victimGender": null,
+    "incidentLocale": null,
+    "incidentSeverityType": null,
+    "incidentSourceType": null,
+    "incidentProductCategory": null,
+    "incidentDocuments": []
+} {
+    "relationshipTyeId": 0,
+    "relationshipTypePublicName": null
+}
+
+{
+    "genderId": 0,
+    "genderPublicName": null
+}
+
+{
+    "localId": 0,
+    "localPublicName": null
+}
+
+{
+    "severityTypeId": 0,
+    "severityTypePublicName": null,
+    "severityTypeDescription": null
+}
+
+{
+    "sourceTypeId": 0,
+    "sourceTypePublicName": null
+}
+
+{
+    "productCategoryId": 0,
+    "productCategoryPublicName": null
+}
+incidentDocument {
+    "incidentReportId": 0,
+    "documentId": 0,
+    "documentLocation": null,
+    "fileName": null,
+    "fileExtension": null
+}

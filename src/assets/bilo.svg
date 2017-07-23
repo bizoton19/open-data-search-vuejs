@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="215.9mm" height="279.4mm" viewBox="0 0 21590 27940" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs class="ClipPathGroup">
+  <clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+   <rect x="0" y="0" width="21590" height="27940"/>
+  </clipPath>
+  <clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+   <rect x="21" y="27" width="21547" height="27885"/>
+  </clipPath>
+ </defs>
+ <defs class="TextShapeIndex">
+  <g ooo:slide="id1" ooo:id-list="id3 id4 id5"/>
+ </defs>
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template(57356)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
+  </g>
+  <g id="bullet-char-template(57354)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template(10146)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10132)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template(10007)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template(10004)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template(9679)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template(8226)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template(8211)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+  <g id="bullet-char-template(61548)" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
+  </g>
+ </defs>
+ <defs class="TextEmbeddedBitmaps"/>
+ <g>
+  <g id="id2" class="Master_Slide">
+   <g id="bg-id2" class="Background"/>
+   <g id="bo-id2" class="BackgroundObjects"/>
+  </g>
+ </g>
+ <g class="SlideGroup">
+  <g>
+   <g id="container-id1">
+    <g id="id1" class="Slide" clip-path="url(#presentation_clip_path)">
+     <g class="Page">
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id3">
+        <rect class="BoundingBox" stroke="none" fill="none" x="10091" y="9355" width="2439" height="5715"/>
+        <defs>
+         <mask id="mask1">
+          <g>
+           <defs>
+            <linearGradient id="gradient1" x1="11410" y1="9556" x2="11410" y2="15069" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="0.5" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="1" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="1" style="stop-color:rgb(20,20,20)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient1)" d="M 10292,9556 L 12529,9556 12529,15069 10292,15069 10292,9556 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask1)">
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 10444,14916 C 11409,14916 12375,14699 12375,14482 L 12375,10142 C 12375,9925 11409,9708 10444,9708"/>
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 10444,14916 L 10444,14916 Z"/>
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 12376,9708 L 12376,9708 Z"/>
+        </g>
+        <path fill="none" stroke="rgb(210,43,43)" stroke-width="305" stroke-linejoin="round" d="M 10244,14716 C 11209,14716 12175,14499 12175,14282 L 12175,9942 C 12175,9725 11209,9508 10244,9508"/>
+        <path fill="none" stroke="rgb(210,43,43)" stroke-width="305" stroke-linejoin="round" d="M 10244,14716 L 10244,14716 Z"/>
+        <path fill="none" stroke="rgb(210,43,43)" stroke-width="305" stroke-linejoin="round" d="M 12176,9508 L 12176,9508 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.CustomShape">
+       <g id="id4">
+        <rect class="BoundingBox" stroke="none" fill="none" x="8339" y="9355" width="2439" height="5715"/>
+        <defs>
+         <mask id="mask2">
+          <g>
+           <defs>
+            <linearGradient id="gradient2" x1="9658" y1="9555" x2="9658" y2="15069" gradientUnits="userSpaceOnUse">
+             <stop offset="0.5" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="0.5" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="1" style="stop-color:rgb(20,20,20)"/>
+             <stop offset="1" style="stop-color:rgb(20,20,20)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient2)" d="M 8540,9555 L 10777,9555 10777,15069 8540,15069 8540,9555 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask2)">
+         <defs>
+          <mask id="mask3">
+           <g>
+            <defs>
+             <linearGradient id="gradient3" x1="9658" y1="9708" x2="9658" y2="14916" gradientUnits="userSpaceOnUse">
+              <stop offset="0" style="stop-color:rgb(0,0,0)"/>
+              <stop offset="0.5" style="stop-color:rgb(255,255,255)"/>
+              <stop offset="1" style="stop-color:rgb(0,0,0)"/>
+             </linearGradient>
+            </defs>
+            <path style="fill:url(#gradient3)" d="M 8692,9708 L 10624,9708 10624,14916 8692,14916 8692,9708 Z"/>
+           </g>
+          </mask>
+         </defs>
+         <g style="mask:url(#mask3)">
+          <g>
+           <defs>
+            <pattern id="pattern1" x="8692" y="9708" width="1933" height="5209" patternUnits="userSpaceOnUse">
+             <g transform="translate(-8692,-9708)">
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9657" y1="9779" x2="10624" y2="9779"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9141" y1="9885" x2="10624" y2="9885"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8844" y1="9991" x2="10624" y2="9991"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8707" y1="10097" x2="10624" y2="10097"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10203" x2="10624" y2="10203"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10309" x2="10624" y2="10309"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10415" x2="10624" y2="10415"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10521" x2="10624" y2="10521"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10627" x2="10624" y2="10627"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10733" x2="10624" y2="10733"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10839" x2="10624" y2="10839"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="10945" x2="10624" y2="10945"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11051" x2="10624" y2="11051"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11157" x2="10624" y2="11157"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11263" x2="10624" y2="11263"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11369" x2="10624" y2="11369"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11475" x2="10624" y2="11475"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11581" x2="10624" y2="11581"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11687" x2="10624" y2="11687"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11793" x2="10624" y2="11793"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="11899" x2="10624" y2="11899"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12005" x2="10624" y2="12005"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12111" x2="10624" y2="12111"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12217" x2="10624" y2="12217"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12323" x2="10624" y2="12323"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12429" x2="10624" y2="12429"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12535" x2="10624" y2="12535"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12641" x2="10624" y2="12641"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12747" x2="10624" y2="12747"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12853" x2="10624" y2="12853"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="12959" x2="10624" y2="12959"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13065" x2="10624" y2="13065"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13171" x2="10624" y2="13171"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13277" x2="10624" y2="13277"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13383" x2="10624" y2="13383"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13489" x2="10624" y2="13489"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13595" x2="10624" y2="13595"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13701" x2="10624" y2="13701"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13807" x2="10624" y2="13807"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="13913" x2="10624" y2="13913"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="14019" x2="10624" y2="14019"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="14125" x2="10624" y2="14125"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="14231" x2="10624" y2="14231"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="14337" x2="10624" y2="14337"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8693" y1="14443" x2="10624" y2="14443"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8723" y1="14549" x2="10624" y2="14549"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8891" y1="14655" x2="10624" y2="14655"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9225" y1="14761" x2="10624" y2="14761"/>
+              <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9824" y1="14867" x2="10624" y2="14867"/>
+             </g>
+            </pattern>
+           </defs>
+           <path style="fill:url(#pattern1)" d="M 10624,14916 L 10264,14906 9915,14879 9589,14836 9297,14780 9050,14715 8946,14679 8859,14641 8789,14603 8760,14583 8736,14563 8718,14543 8704,14523 8696,14502 8694,14492 8693,14482 8693,10142 8694,10132 8696,10122 8704,10101 8718,10081 8736,10061 8760,10041 8789,10021 8859,9983 8946,9945 9050,9909 9297,9844 9589,9788 9915,9745 10264,9718 10624,9708 10624,14916 Z M 10624,14916 L 10624,14916 Z M 8692,9708 L 8692,9708 Z"/>
+          </g>
+         </g>
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 10624,14916 C 9659,14916 8693,14699 8693,14482 L 8693,10142 C 8693,9925 9659,9708 10624,9708"/>
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 10624,14916 L 10624,14916 Z"/>
+         <path fill="none" stroke="rgb(128,128,128)" stroke-width="305" stroke-linejoin="round" d="M 8692,9708 L 8692,9708 Z"/>
+        </g>
+        <defs>
+         <mask id="mask4">
+          <g>
+           <defs>
+            <linearGradient id="gradient4" x1="9458" y1="9508" x2="9458" y2="14716" gradientUnits="userSpaceOnUse">
+             <stop offset="0" style="stop-color:rgb(0,0,0)"/>
+             <stop offset="0.5" style="stop-color:rgb(255,255,255)"/>
+             <stop offset="1" style="stop-color:rgb(0,0,0)"/>
+            </linearGradient>
+           </defs>
+           <path style="fill:url(#gradient4)" d="M 8492,9508 L 10424,9508 10424,14716 8492,14716 8492,9508 Z"/>
+          </g>
+         </mask>
+        </defs>
+        <g style="mask:url(#mask4)">
+         <g>
+          <defs>
+           <pattern id="pattern2" x="8492" y="9508" width="1933" height="5209" patternUnits="userSpaceOnUse">
+            <g transform="translate(-8492,-9508)">
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9548" y1="9567" x2="10424" y2="9567"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8987" y1="9673" x2="10424" y2="9673"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8668" y1="9779" x2="10424" y2="9779"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8515" y1="9885" x2="10424" y2="9885"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="9991" x2="10424" y2="9991"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10097" x2="10424" y2="10097"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10203" x2="10424" y2="10203"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10309" x2="10424" y2="10309"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10415" x2="10424" y2="10415"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10521" x2="10424" y2="10521"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10627" x2="10424" y2="10627"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10733" x2="10424" y2="10733"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10839" x2="10424" y2="10839"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="10945" x2="10424" y2="10945"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11051" x2="10424" y2="11051"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11157" x2="10424" y2="11157"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11263" x2="10424" y2="11263"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11369" x2="10424" y2="11369"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11475" x2="10424" y2="11475"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11581" x2="10424" y2="11581"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11687" x2="10424" y2="11687"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11793" x2="10424" y2="11793"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="11899" x2="10424" y2="11899"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12005" x2="10424" y2="12005"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12111" x2="10424" y2="12111"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12217" x2="10424" y2="12217"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12323" x2="10424" y2="12323"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12429" x2="10424" y2="12429"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12535" x2="10424" y2="12535"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12641" x2="10424" y2="12641"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12747" x2="10424" y2="12747"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12853" x2="10424" y2="12853"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="12959" x2="10424" y2="12959"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13065" x2="10424" y2="13065"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13171" x2="10424" y2="13171"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13277" x2="10424" y2="13277"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13383" x2="10424" y2="13383"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13489" x2="10424" y2="13489"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13595" x2="10424" y2="13595"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13701" x2="10424" y2="13701"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13807" x2="10424" y2="13807"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="13913" x2="10424" y2="13913"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="14019" x2="10424" y2="14019"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="14125" x2="10424" y2="14125"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8493" y1="14231" x2="10424" y2="14231"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8514" y1="14337" x2="10424" y2="14337"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8664" y1="14443" x2="10424" y2="14443"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="8979" y1="14549" x2="10424" y2="14549"/>
+             <line fill="rgb(0,0,0)" stroke="rgb(0,0,0)" x1="9533" y1="14655" x2="10424" y2="14655"/>
+            </g>
+           </pattern>
+          </defs>
+          <path style="fill:url(#pattern2)" d="M 10424,14716 L 10064,14706 9715,14679 9389,14636 9097,14580 8850,14515 8746,14479 8659,14441 8589,14403 8560,14383 8536,14363 8518,14343 8504,14323 8496,14302 8494,14292 8493,14282 8493,9942 8494,9932 8496,9922 8504,9901 8518,9881 8536,9861 8560,9841 8589,9821 8659,9783 8746,9745 8850,9709 9097,9644 9389,9588 9715,9545 10064,9518 10424,9508 10424,14716 Z M 10424,14716 L 10424,14716 Z M 8492,9508 L 8492,9508 Z"/>
+         </g>
+        </g>
+        <path fill="none" stroke="rgb(95,95,159)" stroke-width="305" stroke-linejoin="round" d="M 10424,14716 C 9459,14716 8493,14499 8493,14282 L 8493,9942 C 8493,9725 9459,9508 10424,9508"/>
+        <path fill="none" stroke="rgb(95,95,159)" stroke-width="305" stroke-linejoin="round" d="M 10424,14716 L 10424,14716 Z"/>
+        <path fill="none" stroke="rgb(95,95,159)" stroke-width="305" stroke-linejoin="round" d="M 8492,9508 L 8492,9508 Z"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.Shape3DSceneObject">
+       <g>
+        <rect class="BoundingBox" stroke="none" fill="none" x="9508" y="11032" width="1907" height="1907"/>
+        <image x="9508" y="11032" width="1906" height="1906" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+       </g>
+      </g>
+      <g class="com.sun.star.drawing.EllipseShape">
+       <g id="id5">
+        <rect class="BoundingBox" stroke="none" fill="none" x="16692" y="15320" width="20" height="14"/>
+        <path fill="none" stroke="rgb(52,101,164)" d="M 16710,15321 C 16704,15325 16699,15328 16693,15332"/>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

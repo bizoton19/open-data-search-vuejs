@@ -1,0 +1,63 @@
+[{
+    "recallID": 4875,
+    "recallNumber": "00090a",
+    "recallDate": "2000-04-04T00:00:00",
+    "description": "The screws holding the chair's front leg folding mechanism can work loose causing the chair to collapse, resulting in injury.",
+    "uRL": "https://www.cpsc.gov/Recalls/2000/Chairs-Recalled-by-Boston-Warehouse-Trading-Corp",
+    "title": "Chairs Recalled by Boston Warehouse Trading Corp.",
+    "lastPublishDate": "2014-05-23T00:00:00",
+    "products": [{
+        "name": "Lilla bw HOME folding wooden chairs",
+        "description": "",
+        "model": "",
+        "type": "Chairs, Stools &amp; Benches",
+        "categoryID": "1877",
+        "numberOfUnits": ""
+    }],
+    "manufacturerCountries": [{
+        "country": "Taiwan"
+    }],
+    "manufacturers": [{
+            "name": "Lilla"
+        },
+        {
+            "name": "Boston Warehouse Trading"
+        }
+    ],
+    "images": [{
+        "uRL": "https://www.cpsc.gov/PageFiles/70190/00090a.jpg"
+    }],
+    "injuries": [],
+    "type": "recall"
+}, {
+    "recallID": 4875,
+    "recallNumber": "00090a",
+    "recallDate": "2000-04-04T00:00:00",
+    "description": "The screws holding the chair's front leg folding mechanism can work loose causing the chair to collapse, resulting in injury.",
+    "uRL": "https://www.cpsc.gov/Recalls/2000/Chairs-Recalled-by-Boston-Warehouse-Trading-Corp",
+    "title": "Chairs Recalled by Boston Warehouse Trading Corp.",
+    "lastPublishDate": "2014-05-23T00:00:00",
+    "products": [{
+        "name": "Lilla bw HOME folding wooden chairs",
+        "description": "",
+        "model": "",
+        "type": "Chairs, Stools &amp; Benches",
+        "categoryID": "1877",
+        "numberOfUnits": ""
+    }],
+    "manufacturerCountries": [{
+        "country": "Taiwan"
+    }],
+    "manufacturers": [{
+            "name": "Lilla"
+        },
+        {
+            "name": "Boston Warehouse Trading"
+        }
+    ],
+    "images": [{
+        "uRL": "https://www.cpsc.gov/PageFiles/70190/00090a.jpg"
+    }],
+    "injuries": [],
+    "type": "recall"
+}]
