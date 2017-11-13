@@ -25,7 +25,7 @@
     </p>
   
    <search-aggregation  v-if="hasResults" :aggs="aggs"></search-aggregation>
-    <md-spinner :md-size="60" md-indeterminate class="md-warn" v-if="searchButtonclicked && !isSearchComplete && fetchStatus===null"></md-spinner>
+    <md-spinner :md-size="60" md-indeterminate class="md-warn" v-if="showSpinner"></md-spinner>
   
   <neiss-list-results v-if="hasResults" :response="response">
   </neiss-list-results>
@@ -96,6 +96,9 @@ export default {
     }
   },
   computed: {
+    showSpinner: function(){
+     return (this.searchButtonclicked && !this.isSearchComplete && this.fetchStatus===null);
+    },
     noResult: function() {
       return (
         this.searchButtonclicked && !this.hasResults && this.searchquery != null
