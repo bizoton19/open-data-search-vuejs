@@ -1,9 +1,10 @@
 <template lang="html">
   <div>
+    
    <md-ink-ripple />
   <md-card  >
      
-  <md-list v-for="rec in recall" :key="rec.recallNumber" >
+  <md-list v-for="rec in filteredRecallData" :key="rec.recallNumber"  >
      
       <md-list-item>
         <md-avatar>
@@ -48,31 +49,64 @@
 </template>
 
 <script>
-
+import { eventBus } from "../../main";
 export default {
-  name: 'recallListResults',
-  components: {
-
-  },
-  props:{
-    recall:{
-      type:Array,
-      required:true
+  name: "recallListResults",
+  components: {},
+  props: {
+    response: {
+      required: false
     }
   },
-  computed:{
-       
+
+  computed: {
+    filteredRecallData: function() {
+      var that = this;
+      that.recall = [];
+      var responseData = that.response.hits.hits;
+     
+      for (var r = 0; r < responseData.length; r++) {
+        var data = responseData[r]._source;
+        var type = responseData[r]._type;
+
+        if (type === "recall") {
+          that.recall.push(data);
+        }
+      }
+      return that.recall;
+    }
+   
   },
   data: function() {
     return {
-      recalls: []
-    }
+      recall: [],
+      searchData: null
+    };
   },
   methods: {
-       
+    filterbyDataSetType: function(res) {
+      var that = this;
+      that.recall = [];
+      var responseData = res.hits.hits;
+
+      for (var r = 0; r < responseData.length; r++) {
+        var data = responseData[r]._source;
+        var type = responseData[r]._type;
+
+        console.log(data);
+        if (type === "recall") {
+          that.recall.push(data);
+        }
+      }
+      return that.recall;
+    }
   },
-}
+  created: function(){
+    console.log("was just created");
+  }
+};
 </script>
 
 <style lang="css">
+
 </style>

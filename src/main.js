@@ -9,15 +9,25 @@ import vueResource from 'vue-resource'
 import lodash from 'lodash'
 import VueLodash from 'vue-lodash/dist/vue-lodash.min'
 
-export const eventBus = new Vue()
+
+
 Vue.config.productionTip = false
 Vue.use(VueMaterial)
 Vue.use(vueResource)
 Vue.use(VueLodash, lodash)
-/* eslint-disable no-new */
+    /* eslint-disable no-new */
+export const eventBus = new Vue({
+    methods: {
+        reloadSearchData() {
+            this.$emit('newSearchRequested', 'search')
+        },
+
+
+    }
+})
 new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: { App }
 })
