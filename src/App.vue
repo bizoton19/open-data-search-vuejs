@@ -1,5 +1,6 @@
 <template>
-<div id="app"class="container">
+<div id="app" class="container">
+  
   <img src="./assets/logo.png">
   <md-boards :md-auto="true" :md-infinite="false" :md-duration="20000" :md-swipeable="true" :md-controls="true">
     <md-board id="slide1">
@@ -21,12 +22,12 @@
   </md-boards>
 
   <router-view></router-view>
-
+ 
 </div>
 </template>
 
 <script>
-import search from './components/Search'
+import searchInitiator from './components/SearchInitiator'
 export default {
   name: 'app' // ,
   //components: {

@@ -9,8 +9,6 @@ import vueResource from 'vue-resource'
 import lodash from 'lodash'
 import VueLodash from 'vue-lodash/dist/vue-lodash.min'
 
-
-
 Vue.config.productionTip = false
 Vue.use(VueMaterial)
 Vue.use(vueResource)
@@ -18,12 +16,17 @@ Vue.use(VueLodash, lodash)
     /* eslint-disable no-new */
 export const eventBus = new Vue({
     methods: {
-        reloadSearchData() {
-            this.$emit('newSearchRequested', 'search')
+        publishSearchAggregations(aggs) {
+            this.$emit('newAggsReceived', aggs)
         },
 
 
     }
+})
+Vue.filter('capitalize',(value)=>{
+    if(!value) return ''
+    value = value.toString()
+    return value.charAt(0).toUpperCase() + value.slice(1)
 })
 new Vue({
     el: '#app',

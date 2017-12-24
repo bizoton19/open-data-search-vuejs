@@ -1,57 +1,49 @@
 <template>
+
+   
   <div id="search">
-    <md-card md-with-hover>
-      <md-card-header> Search Open Datasets</md-card-header>
-      <md-card-actions>
-      
-        <md-input-container>
-          <label>Search</label>
-          <md-input placeholder="Search by type, title or description etc. " v-model="searchquery" id="searchquery">
-          </md-input>
-          <a href="#" v-on:click="search(searchquery)">
-            <md-icon class="md-size-1x md-accent">search</md-icon>
-          </a>
-        </md-input-container>
-      </md-card-actions>
-    </md-card>
+   
     <br>
     <p v-if="fetchStatus != null">{{fetchStatus}}</p>
     <p v-if="hasResults">{{displayWhenHasResults()}}</p>
     <p v-if="noResult && isSearchComplete && fetchStatus==null">
       <md-icon class="md-size-1x md-warn">help</md-icon> search returned no result please try another query</p>
-    <p v-if="!searchButtonclicked || searchquery===null">
+    <p v-if="!searchButtonclicked || searchinput===null">
       <md-icon class="md-size-1x md-warn">help_outline</md-icon>
-      {{searchButtonclickedOrSearchqueryNullDisplay()}}
+      {{searchButtonclickedOrsearchinputNullDisplay()}}
     </p>
   
-   <search-aggregation  v-if="hasResults" :aggs="aggs"></search-aggregation>
     <md-spinner :md-size="60" md-indeterminate class="md-warn" v-if="showSpinner"></md-spinner>
-  
-  <neiss-list-results v-if="hasResults" :response="response">
-  </neiss-list-results>
-   <recall-list-results v-if="hasResults" :response="response">
-   </recall-list-results>
    
-   
+   <search-results v-if="hasResults" :results="response">
+
+   </search-results>
   
+
   </div>
+  
 </template>
 
 
 <script>
-import recallListResults from "./recalls/RecallListResults.vue";
-import neissListResults from "./neiss/NeissListResults.vue";
-import searchAggregation from "./SearchAggregation.vue";
 
+import  searchResults from "./SearchResults.vue";
+import {eventBus} from "../main";
 
-import _ from "lodash";
 
 export default {
   name: "search",
   components: {
-    recallListResults,
-    neissListResults,
-    searchAggregation
+    
+    searchResults,
+    eventBus
+   
+  },
+   props:{
+      searchinput:{
+          required:false,
+          type:String
+      }
   },
   data: function() {
     return {
@@ -66,20 +58,11 @@ export default {
         from: Number,
         dataType: String
       },
-      dataContainer: {
-        recalls: [],
-        incidentReports: [],
-        neiss: [],
-        violations: []
-      },
-      aggs: null,
-      aggregations: {
-        artifactType: [],
-        artifactSource: []
-      },
+  
+     
       response: null,
       dataTypes: [],
-      searchquery: null,
+      //searchInput: null,//move to parent comp
       hasResults: false,
       isSearchComplete: false,
       searchButtonclicked: false,
@@ -89,7 +72,7 @@ export default {
     };
   },
   watch: {
-    searchquery: function(newQuery) {
+    searchinput: function(newQuery) {
       var that = this;
       that.fetchStatus = "Waiting for input...";
       that.search(newQuery);
@@ -101,7 +84,7 @@ export default {
     },
     noResult: function() {
       return (
-        this.searchButtonclicked && !this.hasResults && this.searchquery != null
+        this.searchButtonclicked && !this.hasResults && this.searchinput != null
       );
     }
    
@@ -115,17 +98,17 @@ export default {
         " records in " +
         this.stats.took +
         " ms, Max Relevance Score : " +
-        this.stats.maxscore +
+        this.stats.maxScore +
         ", Displaying top: " +
         this.stats.resultCount +
         " results containing " +
-        this.searchquery
+        this.searchinput
       );
     },
-
-    searchButtonclickedOrSearchqueryNullDisplay: function() {
-      return this.searchquery
-        ? "Query=" + this.searchquery
+ 
+    searchButtonclickedOrsearchinputNullDisplay: function() {
+      return this.searchinput
+        ? "Query=" + this.searchinput
         : "Please enter a query";
     },
     resetFormItems: function() {
@@ -134,8 +117,6 @@ export default {
       that.isSearchComplete = false;
       that.hasResults = false;
       that.stats.resultCount = 0;
-      that.dataContainer.recalls = [];
-      that.dataContainer.neiss = [];
       that.fetchStatus = null;
      
     },
@@ -144,35 +125,36 @@ export default {
       var that = this;
 
       var responseData = resp.data;
-      that.stats.took = responseData.results.took;
-      that.stats.total = responseData.results.hits.total;
-      that.stats.maxscore = responseData.results.hits.max_score;
+      that.stats.took = responseData.took;
+      that.stats.total = responseData.docCount;
+      that.stats.maxScore = responseData.maxScore;
       that.stats.resultCount = Math.ceil(
-        responseData.docCount / responseData.pages
+        responseData.docCount / responseData.totalPages
       );
      
 
-      that.response = responseData.results;
-      that.aggs = responseData.results.aggregations;
+      that.response = responseData.artifacts;
+      
       this.hasResults = true;
-      //eventBus.$emit('newSearchRequested', response)
+      eventBus.$emit('newAggsReceived', responseData.aggregation)
+      console.log( responseData.aggregation)
     },
 
-    search: _.debounce(
-      function(searchquery) {
+    search: 
+      function(searchinput) {
         var that = this;
         that.resetFormItems();
 
-        var urlRoot = "/search";
+        var urlRoot = "http://localhost:3000/search";
         //TODO: just switch no local node js api server, need to finish code to create a request object to pass down to the api.
         //Also code to parse the api response
-        if (searchquery.length == 0 || searchquery.length === null) {
+        if (searchinput.length == 0 || searchinput.length === null) {
           that.isSearchComplete = true;
           return;
         }
         that.$http
           .post(urlRoot, {
-            FullText: this.searchquery,
+            FullText: this.searchinput,
             Filter: {
               Source: "",
               Type: "",
@@ -183,20 +165,17 @@ export default {
             NumPerPage: that.searchSettings.size
           })
           .then(resp => {
-            if (resp.data.results.hits.total > 0) {
-              that.filterResponseData(resp);
+            if (resp.data.docCount > 0) {
+              this.filterResponseData(resp)
             }
-            that.isSearchComplete = true;
+            that.isSearchComplete = true
           })
           .catch(function(error) {
-            console.log("could not reach API " + error);
+            console.log("could not reach API " + error)
             this.fetchStatus =
               "Communication with the back end server failed...please try again later";
           });
-      },
-      // number of milliseconds to wait for user to finish typing
-      600
-    )
+      }
   }
 };
 </script>

@@ -102,7 +102,7 @@ export default {
     }
   },
   created: function(){
-    console.log("was just created");
+    console.log(" RecallListResult was just created");
   }
 };
 </script>
