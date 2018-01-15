@@ -12,6 +12,7 @@
 
 </search-initiator>
  </div>
+ 
 </div>
     
 </template>

@@ -19,6 +19,9 @@ export const eventBus = new Vue({
         publishSearchAggregations(aggs) {
             this.$emit('newAggsReceived', aggs)
         },
+        publishPageSelection(pageNumber){
+            this.$emit('newPageSelected',pageNumber)
+        }
 
 
     }

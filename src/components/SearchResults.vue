@@ -1,11 +1,10 @@
 <template lang="html">
   
   <div>
-    <md-tabs md-centered>
-  <md-tab md-label="Search Documents" md-icon="note">
+    <md-tabs class="md-transparent" md-centered md-elevation="2">
+  <md-tab md-label="Data (LIST)" md-icon="note">
     <md-ink-ripple />
   <md-card  >
-     
   <md-list v-for="rec in results" :key="rec.uuid"  >
      
       <md-list-item>
@@ -34,11 +33,7 @@
 
   <md-tab md-label="Images" md-icon="collections">
     <md-list v-for="(rec,position) in results" :key="rec.uuid"  >
-     
       <md-list-item>
-
-   
-   
   <md-card md-with-hover v-for="(img, index) in rec.images">
 
   <md-card-media md-ratio="4:3">
@@ -55,14 +50,14 @@
   </md-card-actions>
 </md-card>
 
-
-   
-   
    </md-list-item>
   </md-list>
  </md-card>
  </md-tab>
  </md-tabs>
+ 
+ </div>
+
  </div>
 </template>
 
@@ -73,22 +68,16 @@ export default {
   components: {},
   props: {
     results: {
-      required: true,
-      
+      required: true
     }
   },
 
-  computed: {
-    
-    
-  },
+  computed: {},
   data: function() {
     return {};
   },
   methods: {},
-  created: function() {
-    
-  }
+  created: function() {}
 };
 </script>
 
