@@ -61,17 +61,6 @@ export default {
         dataType: String
       },
       
-      searchRequest: {
-        FullText: "",
-        Filter: {
-          Sources: [],
-          Types: [],
-          StartDate: "01-01-1970",
-          EndDate: "01-01-2018"
-        },
-        StartPage: 1,
-        NumPerPage: 10
-      },
       
       response: null,
       dataTypes: [],
@@ -168,7 +157,7 @@ export default {
       var that = this;
       that.resetFormItems();
       var pageSelected = parseInt(that.pageselected)
-      var urlRoot = "http://localhost:3000/search";
+      var urlRoot = "/search";
       //TODO: just switch no local node js api server
       if (searchinput.length == 0 || searchinput.length === null) {
         that.isSearchComplete = true;
@@ -179,10 +168,10 @@ export default {
         .post(urlRoot, {
           FullText: this.searchinput,
           Filter: {
-            Source: '',//this.searchRequest.Filter.Source,
-            Type: '',//this.searchRequest.Filter.Type,
-            StartDate: "01-01-1970",//this.searchRequest.Filter.StartDate,
-            EndDate: "01-01-2019"//this.searchRequest.Filter.EndDate
+            Source: '',
+            Type: '',
+            StartDate: "1970-01-01",
+            EndDate: "2019-01-01"
           },
           StartPage: isNaN(pageSelected)?1:pageSelected,
           NumPerPage: that.searchSettings.size
